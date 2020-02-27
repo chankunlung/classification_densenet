@@ -32,3 +32,15 @@ The function is to reduce the horizontal and vertical size of the feature map an
 
 Use pre-activation structures in the batchNorm-ReLU-Conv sequence
 
+
+I will finish the brief explanation on the densenet and continue to compare max and avg pooling based on the experiment.
+
+Pooling plays a very important role on CNN. It can use sub-sampling to reduce the size of feature-map and extract features that have a stronger nature for location or movement. 
+
+First, the Avg-pooling method uses a lot of RELUs as an active function. This results in a large number of zeros, and the impact is reduced by strong stimulation by the average operation.
+In addition, taking the average of positive and negative stimuli can cause offsetting situations.
+Second, the Max-pooling method would like to be overfitting with learning data.
+
+Avg, Max pooling was tested as follows. The Stochastic pooling part will be later....
+
+
