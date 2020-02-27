@@ -53,6 +53,17 @@ When I studied 250epoch, Avg-pooling came out 86.87% acuracy, loss 0.28962, Max-
 ##### avg pooling
 The following figures show a Constructed Layer feature map from input to output layer.
 
+![image](https://user-images.githubusercontent.com/45933225/75474243-f74cc400-59d9-11ea-9d09-43faa465a9af.png)
 
+##### max pooling
+
+![image](https://user-images.githubusercontent.com/45933225/75474318-1f3c2780-59da-11ea-9948-00dcb768fc68.png)
+
+
+#### - Grad CAM(cat, dog)
+
+##### avg pooling
+
+##### max pooling
 
 
