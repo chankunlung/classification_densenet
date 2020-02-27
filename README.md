@@ -18,3 +18,14 @@ Since each feature map is connected flexibly, if the number of channels in the f
 ### Bottleneck Layer
 You can also check the bottle neck section on ResNet.
 
+<img width="734" alt="스크린샷 2020-02-28 02 19 29" src="https://user-images.githubusercontent.com/45933225/75468567-c0be7b80-59d0-11ea-93c9-ad5869a5bae8.png">
+
+The number of channels in the input feature map is about to be reduced through 1x1 component before the 3x3 competition. After that, instead of creating as many channels as the input feature map, the difference is to create as many feature map as the row rate, which can reduce the computational cost.
+Efficiency can reduce parameters and see the figure for areas that differ from ResNet.
+
+### Transition Layer
+The function is to reduce the horizontal and vertical size of the feature map and to reduce the number of
+
+### Composite function
+Use pre-activation structures in the batchNorm-ReLU-Conv sequence
+
