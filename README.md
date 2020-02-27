@@ -60,7 +60,7 @@ The following figures show a Constructed Layer feature map from input to output 
 ![image](https://user-images.githubusercontent.com/45933225/75474318-1f3c2780-59da-11ea-9948-00dcb768fc68.png)
 
 
-#### Grad CAM:Generalized version of CAM(cat, dog)
+#### - Grad CAM:Generalized version of CAM(cat, dog)
 Simply put, the Grid CAM is called a face position tracker.
 
 ##### avg pooling
