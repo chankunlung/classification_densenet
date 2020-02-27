@@ -3,7 +3,7 @@ Prior to starting, GPU provided by colab was used based on tensorflow library AP
 
 #### - As a dataset, we used the Cats-vs-Dogs data provided by Kaggle and divided them from 25,000 to 17,000 train_data, validation_data 4000 and test_data 4000.
 
-### DenseNet(Densely Connected Convolutional Networks)
+## DenseNet(Densely Connected Convolutional Networks)
 DenseNet overall background is layer-our network has a direct L(L+1) connection, one between each layer and the subsequent layers. For each layer, the feature map of all leading layers is used as an input.
 This configuration destroys decimation phase problems, strengthens character propagation, encourages feature reuse, and significantly reduces the number of parameters.
 
@@ -32,6 +32,7 @@ The function is to reduce the horizontal and vertical size of the feature map an
 
 Use pre-activation structures in the batchNorm-ReLU-Conv sequence
 
+## avg pooling vs max pooling
 
 I will finish the brief explanation on the densenet and continue to compare max and avg pooling based on the experiment.
 
@@ -42,5 +43,16 @@ In addition, taking the average of positive and negative stimuli can cause offse
 Second, the Max-pooling method would like to be overfitting with learning data.
 
 Avg, Max pooling was tested as follows. The Stochastic pooling part will be later....
+
+Both used 121-layer. And two results were obtained.
+
+When I studied 250epoch, Avg-pooling came out 86.87% acuracy, loss 0.28962, Max-pooling came out acuracy 90.85% and loss 0.22649 and was not obvious about the differences above.
+
+#### - feature map(conv_2d layer)
+
+##### avg pooling
+The following figures show a Constructed Layer feature map from input to output layer.
+
+
 
 
