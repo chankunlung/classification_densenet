@@ -32,7 +32,7 @@ The function is to reduce the horizontal and vertical size of the feature map an
 
 Use pre-activation structures in the batchNorm-ReLU-Conv sequence
 
-## avg pooling vs max pooling
+### avg pooling vs max pooling
 
 I will finish the brief explanation on the densenet and continue to compare max and avg pooling based on the experiment.
 
