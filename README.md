@@ -27,5 +27,8 @@ Efficiency can reduce parameters and see the figure for areas that differ from R
 The function is to reduce the horizontal and vertical size of the feature map and to reduce the number of
 
 ### Composite function
+
+<img width="734" alt="스크린샷 2020-02-28 02 27 08" src="https://user-images.githubusercontent.com/45933225/75469140-d54f4380-59d1-11ea-8317-273f6dcacf39.png">
+
 Use pre-activation structures in the batchNorm-ReLU-Conv sequence
 
